@@ -6,7 +6,8 @@ namespace Progress
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Progress is better than perfection");
+            ProgramEntry myProgram = new ProgramEntry();
+            myProgram.WelcomePage();
             Console.ReadLine();
         }
     }
